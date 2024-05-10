@@ -19,8 +19,13 @@ Introducing our groundbreaking **AI/ML resume parsing algorithm**. It filters an
 
 ## TeckStacks
 > **Python**
+> 
 > **Flask**
+> 
 > **Flutter**
+> 
 > **NodeJS**
+> 
 > **ExpressJS**
+> 
 > **MongoDB**
