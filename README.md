@@ -17,7 +17,7 @@ Introducing our groundbreaking **AI/ML resume parsing algorithm**. It filters an
 
 **Customizable Ranking**: Quantifies candidate relevance based on job description, streamlining selection.
 
-## TeckStacks
+## TechStacks
 > **Python**
 > 
 > **Flask**
