@@ -16,3 +16,12 @@ Introducing our groundbreaking **AI/ML resume parsing algorithm**. It filters an
 **Bias Mitigation**: Eliminates human bias, ensuring fair and objective evaluations.
 
 **Customizable Ranking**: Quantifies candidate relevance based on job description, streamlining selection.
+
+## TeckStacks
+**Python**
+**Flask**
+**Flutter**
+**NodeJS**
+**ExpressJS**
+**MongoDB**
+
