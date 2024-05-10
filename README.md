@@ -23,5 +23,4 @@ Introducing our groundbreaking **AI/ML resume parsing algorithm**. It filters an
 **Flutter**
 **NodeJS**
 **ExpressJS**
-**MongoDB**
-
+> **MongoDB**
