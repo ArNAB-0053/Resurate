@@ -50,14 +50,18 @@ We use machine learning for resume screening, aiming for faster, unbiased, and p
 ## Screenshots
 
 **Register Page**
+
 ![register_page](https://github.com/ArNAB-0053/Resurate/assets/86611531/b9b8a89f-bc2d-4e7f-9541-444b1db28163)
 
 **Login Page**
+
 ![login_Page](https://github.com/ArNAB-0053/Resurate/assets/86611531/d7356a98-266f-4baf-92c3-cb565a464744)
 
 **Home Page**
+
 ![home_screen](https://github.com/ArNAB-0053/Resurate/assets/86611531/d1bef124-12d2-4407-baaf-e89361216c6b)
 
 **Drawer Page**
+
 ![Drawer_page](https://github.com/ArNAB-0053/Resurate/assets/86611531/711638a2-1516-4203-8da0-96ac94274b19)
 
