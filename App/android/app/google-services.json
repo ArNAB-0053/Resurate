@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "285573051299",
+    "project_id": "resurate",
+    "storage_bucket": "resurate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285573051299:android:18a86d922c83a5ec1e6016",
+        "android_client_info": {
+          "package_name": "com.example.resurate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeDGFrUn4lyYOa7cBU7LkFYViWHS3YDeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
