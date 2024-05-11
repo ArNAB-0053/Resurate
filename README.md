@@ -16,6 +16,19 @@ We use machine learning for resume screening, aiming for faster, unbiased, and p
 - **Customizable Ranking**: Quantifies candidate relevance based on job description, streamlining selection.
 - **Bias Mitigation**: Eliminates human bias, ensuring fair and objective evaluations.
 
+## How Resurate Works
+
+1. **Collect Resumes**: First, we gather resumes from job applicants.
+2. **Read Resumes**: Resurate reads through resumes to understand what skills and experience each person has.
+3. **Match Resumes to Jobs**: It then matches these resumes to available job openings based on what the job requires.
+4. **Show Results**:  Resurate gives a list of the best-matched resumes for each job.
+
+## Why Use Resurate
+
+- **Faster Hiring**: It helps companies find the right people for the job quickly.
+- **Fairer Process**: Resurate removes human bias and treats everyone equally.
+- **Easy to Use**: Its simple interface makes it easy to understand and use.
+
 ## TechStacks
 
 - **Python**: Backend development and machine learning model training.
