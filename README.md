@@ -46,12 +46,3 @@ We use machine learning for resume screening, aiming for faster, unbiased, and p
 4. **Ranking**: Implement a scoring system based on the extracted information to rank the resumes against the job descriptions.
 5. **Bias Mitigation**: Apply techniques to ensure fair and unbiased evaluations, promoting diversity and inclusivity.
 6. **Deployment**: Deploy the parsed and ranked resume system for real-time ranking of uploaded resumes against specified job descriptions.
-
-## Usage
-
-To use Resurate, follow these steps:
-
-1. **Data Collection**: Gather resumes and job descriptions.
-2. **Upload Resumes**: Use the provided interface to upload resumes.
-3. **Rank Resumes**: Resurate will rank the uploaded resumes based on their relevance to specified job descriptions.
-4. **Review Results**: Review the ranked resumes to identify the most suitable candidates.
