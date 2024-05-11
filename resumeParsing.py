@@ -9,12 +9,12 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 # ----------------------------------------------------------------------------------------
 
-resume_path1 = "resume.pdf"
-resume_path2 = "Alice Clark CV.pdf"
-resume_path3 = "Smith Resume.pdf"
-resume_path4 = "myres.pdf"
+# resume_path1 = "resume.pdf"
+# resume_path2 = "Alice Clark CV.pdf"
+# resume_path3 = "Smith Resume.pdf"
+# resume_path4 = "myres.pdf"
 
-def matchingPer(resume):
+def matchingPer(resume, job_desc):
     def info_extraction(resume_path, info):
         try:
             # Parse resume directly from PDF
@@ -48,9 +48,6 @@ def matchingPer(resume):
         else:
             return []
 
-    with open('job_desc.txt', 'r') as file:
-        # Read the content
-        job_desc = file.read()
     skills = extract_skills(job_desc)
 
     # Print the extracted skills
