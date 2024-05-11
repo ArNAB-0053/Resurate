@@ -46,3 +46,14 @@ We use machine learning for resume screening, aiming for faster, unbiased, and p
 4. **Ranking**: Implement a scoring system based on the extracted information to rank the resumes against the job descriptions.
 5. **Bias Mitigation**: Apply techniques to ensure fair and unbiased evaluations, promoting diversity and inclusivity.
 6. **Deployment**: Deploy the parsed and ranked resume system for real-time ranking of uploaded resumes against specified job descriptions.
+
+## Screenshots
+
+![register_page](https://github.com/ArNAB-0053/Resurate/assets/86611531/b9b8a89f-bc2d-4e7f-9541-444b1db28163)
+
+![login_Page](https://github.com/ArNAB-0053/Resurate/assets/86611531/d7356a98-266f-4baf-92c3-cb565a464744)
+
+![home_screen](https://github.com/ArNAB-0053/Resurate/assets/86611531/d1bef124-12d2-4407-baaf-e89361216c6b)
+
+![Drawer_page](https://github.com/ArNAB-0053/Resurate/assets/86611531/711638a2-1516-4203-8da0-96ac94274b19)
+
