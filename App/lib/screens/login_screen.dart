@@ -3,7 +3,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:resurate/screens/register_screen.dart';
-
 import '../Helper/helper_function.dart';
 import '../services/auth_services.dart';
 import '../services/database_services.dart';
@@ -12,7 +11,6 @@ import 'home_screen.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
-
   @override
   State<LoginPage> createState() => _LoginPageState();
 }
@@ -25,8 +23,8 @@ class _LoginPageState extends State<LoginPage> {
   AuthService authService = AuthService();
   @override
   Widget build(BuildContext context) {
-    return Expanded(
-      child: Scaffold(
+    return Scaffold(
+
         body: _isLoading
             ? Center(
           child: CircularProgressIndicator(
@@ -172,8 +170,7 @@ class _LoginPageState extends State<LoginPage> {
         ),
       )
         )
-      ),
-    );
+      );
   }
 
 

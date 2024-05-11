@@ -30,7 +30,7 @@ class Job {
   static List<Job> joblist = [
     Job(
         jobId: 0,
-        salary: "22K",
+        salary: "1.5CR",
         category: 'Android',
         applicandName: 'Dwaipayan',
         size: 'Small',
@@ -44,7 +44,7 @@ class Job {
         isSelected: false),
     Job(
         jobId: 1,
-        salary: "21K",
+        salary: "12L",
         category: 'Web',
         applicandName: 'Tatay',
         size: 'Small',
@@ -58,7 +58,7 @@ class Job {
         isSelected: false),
     Job(
         jobId: 2,
-        salary: "11K",
+        salary: "10L",
         category: 'UI/UX',
         applicandName: 'SM',
         size: 'Small',
