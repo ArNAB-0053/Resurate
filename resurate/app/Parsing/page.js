@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import Job from '../../Components/Job';
 import axios from "axios";
-import Dropzoner from "@/Components/Dropzone";
 
 const Parsing = () => {
   const [resumes, setResumes] = useState([]);
@@ -45,6 +45,7 @@ const Parsing = () => {
     try {
       const formData = new FormData();
       formData.append("resume", file);
+      // formData.append("JD", file);
       await axios.post("http://127.0.0.1:3000/", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
@@ -58,24 +59,34 @@ const Parsing = () => {
       console.error("Error uploading resume:", error);
     }
   };
-
+//
   return (
-    <div className="pt-8 flex flex-col space-y-5 justify-center items-center">
-      <div className="space-y-4 flex justify-center items-center flex-col">
-        <div className="border rounded-md p-10">
-          <input type="file" accept=".pdf" onChange={handleFileChange} />
-        </div>
+    <div className="pt-8 flex flex-col space-y-5 ">
+      <div className="flex ">
+        <div className="space-y-4 flex justify-center items-center flex-col
+ w-[50%]">
+          <div className="flex flex-col space-y-4">
+                 <Job/>      
+          </div>
 
-        {/* <Dropzoner handleChange = {handleFileChange}/> */}
-        <button
-          className="border-2 border-black w-fit flex items-center justify-center border-solid px-2 py-1 ml-2"
-          onClick={uploadResume}
-        >
-          Upload Resume
-        </button>
-        {uploadMsg && <div className="text-green-500 mt-2">{uploadMsg}</div>}
-      </div>
-      {loading ? (
+      
+        </div>
+        <div className="flex flex-col items-center justify-center">
+        <div className="space-y-4 flex justify-center items-center flex-col px-12 py-12">
+          <div className="border rounded-md p-10">
+            <input type="file" accept=".pdf" onChange={handleFileChange} />
+          </div>
+
+          {/* <Dropzoner handleChange = {handleFileChange}/> */}
+          <button
+            className="border-2 border-black w-fit flex items-center justify-center border-solid px-2 py-1 ml-2"
+            onClick={uploadResume}
+          >
+            Upload Resume
+          </button>
+          {uploadMsg && <div className="text-green-500 mt-2">{uploadMsg}</div>}
+        </div>
+        {loading ? (
         <div>Loading...</div>
       ) : (
         <div className="shadow-lg p-4 w-1/2 space-y-3 border ">
@@ -85,18 +96,21 @@ const Parsing = () => {
               <div>Score: {resume.percentage}</div>
             </div>
           ))}
-         
-          
         </div>
       )}
-       <div className="flex justify-center items-center">
-          <button
-            className="border-2 border-black border-solid px-2 py-1 mt-4"
-            onClick={sortResumes}
-          >
-            Sort Resumes
-          </button>
-          </div>
+      <div className="flex justify-center items-center">
+        <button
+          className="border-2 border-black border-solid px-2 py-1 mt-4"
+          onClick={sortResumes}
+        >
+          Sort Resumes
+        </button>
+      </div>
+      </div>
+        </div>
+        
+
+      
     </div>
   );
 };

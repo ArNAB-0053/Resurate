@@ -54,6 +54,7 @@ dependencies:
   gallery_picker: ^0.5.1
   pdf: ^3.10.8
   google_sign_in: ^6.2.1
+  flutter_keyboard_visibility: ^6.0.0
 
 dev_dependencies:
   flutter_test:

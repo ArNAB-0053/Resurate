@@ -105,7 +105,8 @@ class _LoginPageState extends State<LoginPage> {
                             backgroundColor: Theme.of(context).primaryColor,
                             elevation: 0,
                             shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(30))),
+                                borderRadius: BorderRadius.circular(30))
+                        ),
                         child: const Text(
                           "Sign In",
                           style:

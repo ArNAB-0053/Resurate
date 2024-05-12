@@ -3,6 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:resurate/screens/dashboard_screen.dart';
 import 'package:resurate/screens/home_screen.dart';
+import 'package:resurate/screens/job_description.dart';
 import 'package:resurate/screens/login_screen.dart';
 import 'package:resurate/screens/resume_uploading.dart';
 import 'package:resurate/widgets/constants.dart';
@@ -61,7 +62,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(primaryColor: Constants().primaryColor,
           scaffoldBackgroundColor: Colors.white),
       debugShowCheckedModeBanner: false,
-      home:  LoginPage(),
+      home:  HomePage(),
     );
   }
 }

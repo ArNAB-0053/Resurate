@@ -3,6 +3,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:resurate/constants.dart';
+import 'package:resurate/screens/home_screen.dart';
+import 'package:resurate/screens/job_description.dart';
 import 'package:resurate/screens/login_screen.dart';
 import 'package:resurate/screens/profile_page.dart';
 import 'package:resurate/screens/resume_uploading.dart';
@@ -42,6 +44,9 @@ class MyDrawer extends StatelessWidget {
             // "Fuck off bitch".text.make(),
 
             ListTile(
+              onTap: (){
+                nextScreen(context, HomePage());
+              },
               leading: Icon(
                 CupertinoIcons.home,
                 color: Colors.white,
@@ -53,7 +58,9 @@ class MyDrawer extends StatelessWidget {
             ),
             ListTile(
               onTap: () {
-                nextScreen(context, ProfilePage());
+                nextScreen(context, ProfilePage(name: 'Dwaipayan Biswas',
+                  email: '12334@gmail.com',
+                  profileImageUrl: 'assets/images/profile_image.png',));
               },
               leading: Icon(
                 Icons.person,
@@ -66,13 +73,27 @@ class MyDrawer extends StatelessWidget {
             ),
             ListTile(
               onTap: () {
-                // nextScreen(context, MyHomePage());
+                nextScreen(context, MyHomePage());
               },
               leading: Icon(
                 Icons.picture_as_pdf,
                 color: Colors.white,
               ),
               title: Text("Resume",
+                textScaleFactor: 1,
+                style: TextStyle(color: Colors.white),
+              ),
+            ),
+
+            ListTile(
+              onTap: () {
+                nextScreen(context, JobDescription());
+              },
+              leading: Icon(
+                Icons.description,
+                color: Colors.white,
+              ),
+              title: Text("Job Description",
                 textScaleFactor: 1,
                 style: TextStyle(color: Colors.white),
               ),
