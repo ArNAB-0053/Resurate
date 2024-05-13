@@ -1,6 +1,6 @@
 # Resurate
 
-Resurate is a machine learning-based application designed to streamline the resume screening process, enabling faster and more accurate candidate-job matching.
+Resurate is a NLP-based application designed to streamline the resume screening process, enabling faster and more accurate candidate-job matching.
 
 ## Problem Statement
 
@@ -8,7 +8,7 @@ Traditional resume screening processes suffer from inefficiency and human bias, 
 
 ## Proposed Approach
 
-We use machine learning for resume screening, aiming for faster, unbiased, and precise candidate-job matching. Our approach includes data collection, natural language processing (NLP)-based feature extraction, resume parsing, and a user-friendly interface for seamless deployment.
+We use NLP for resume screening, aiming for faster, unbiased, and precise candidate-job matching. Our approach includes data collection, natural language processing (NLP)-based feature extraction, resume parsing, and a user-friendly interface for seamless deployment.
 
 ## Features
 
